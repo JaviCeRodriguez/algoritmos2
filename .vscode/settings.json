@@ -4,5 +4,6 @@
         "--cov=./03_arboles/tads",
         "--rootdir=./03_arboles/tads"
     ],
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "editor.tabSize": 4
 }

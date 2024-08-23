@@ -1,4 +1,9 @@
+# Disclaimer
+
+Este es un fork del [repositorio original] de la materia Algoritmos 2. Es probable que existan diferencias en el contenido teórico.
+
 # algoritmos2
+
 Contenido para la materia Algoritmos 2 de la Licenciatura en Ciencia de Datos de UNSAM.
 
 # Mensaje de Bienvenida

@@ -1,6 +1,6 @@
 # Disclaimer
 
-Este es un fork del [repositorio original] de la materia Algoritmos 2. Es probable que existan diferencias en el contenido teórico.
+Este es un fork del [repositorio original](https://github.com/mapreu/algoritmos2) de la materia Algoritmos 2. Es probable que existan diferencias en el contenido teórico.
 
 # algoritmos2
 

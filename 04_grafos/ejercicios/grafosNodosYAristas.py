@@ -66,26 +66,27 @@ class Grafo(Generic[T]):
     def __str__(self) -> str:
         return f"Vertices = {self.vertices} \n Aristas = {self.aristas}"
 
-grafo = Grafo()
-grafo.agregar_nodo(1)
-grafo.agregar_nodo(2)
-grafo.agregar_nodo(3)
-grafo.agregar_nodo(4)
+if __name__ == '__main__':
+    grafo = Grafo()
+    grafo.agregar_nodo(1)
+    grafo.agregar_nodo(2)
+    grafo.agregar_nodo(3)
+    grafo.agregar_nodo(4)
 
-# Agregar aristas
-grafo.agregar_arista((1, 2))
-grafo.agregar_arista((2, 3))
-grafo.agregar_arista((3, 4))
-grafo.agregar_arista((4, 1))
+    # Agregar aristas
+    grafo.agregar_arista((1, 2))
+    grafo.agregar_arista((2, 3))
+    grafo.agregar_arista((3, 4))
+    grafo.agregar_arista((4, 1))
 
-# Mostrar 
-print("Grafo hasta ahora",grafo)
+    # Mostrar 
+    print("Grafo hasta ahora",grafo)
 
-# Eliminar nodo y arista
-grafo.eliminar_nodo(2)
-grafo.eliminar_arista((3, 4))
+    # Eliminar nodo y arista
+    grafo.eliminar_nodo(2)
+    grafo.eliminar_arista((3, 4))
 
-# Verificar vecinos
-print("\n¿El nodo 1 es vecino del nodo 3?", grafo.es_vecino_de(1, 3))
-print("\n¿El nodo 3 es vecino del nodo 4?", grafo.es_vecino_de(1, 4))
-print("Vecinos del nodo 1:", grafo.vecinos_de(1))
+    # Verificar vecinos
+    print("\n¿El nodo 1 es vecino del nodo 3?", grafo.es_vecino_de(1, 3))
+    print("\n¿El nodo 3 es vecino del nodo 4?", grafo.es_vecino_de(1, 4))
+    print("Vecinos del nodo 1:", grafo.vecinos_de(1))
